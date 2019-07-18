@@ -1,15 +1,15 @@
-#API
 
-每个项目都会在我们的后台配置itemid,同时也会分配一个secret秘钥串给到用户，用于生成每个请求的sign
 
-## 流程说明
+# 流程说明
 1. 获取手机号
 2. 获取验证码
 3. 回调上传执行结果
 
+# API
 
+每个项目都会在我们的后台配置itemid,同时也会分配一个secret秘钥串给到用户，用于生成每个请求的sign
 
-## 获取手机号
+## 1.获取手机号
 
 通过该接口获取可用的手机号，如果没有获取到(错误码1001)，则请重试，建议间隔时间每秒钟不超过10次
 
@@ -41,7 +41,7 @@ http://sms.meilihh.com/getmobile?itemid=1&timestamp=20190701152800&sign=AB5A65F5
 |1005|访问太频繁，请间隔1秒之后再试||
 |1006|余额不足|
 
-## 获取SMS验证码
+## 2.获取SMS验证码
 
 ```
 http://sms.meilihh.com/getsms?itemid=1&timestamp=20190701152800&sign=AB5A65F5C63157935&mobile=13888888888
@@ -77,7 +77,7 @@ http://sms.meilihh.com/getsms?itemid=1&timestamp=20190701152800&sign=AB5A65F5C63
 
 
 
-## 回调结果通知
+## 3.回调结果通知
 
 ```
 http://sms.meilihh.com/result?itemid=1&timestamp=20190701152800&sign=AB5A65F5C63157935
