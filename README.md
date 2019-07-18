@@ -80,7 +80,8 @@ http://sms.meilihh.com/getsms?itemid=1&timestamp=20190701152800&sign=AB5A65F5C63
 ## 回调结果通知
 
 ```
-http://sms.meilihh.com/result?itemid=1&timestamp=20190701152800&sign=AB5A65F5C63157935&mobile=13888888888&result=success
+http://sms.meilihh.com/result?itemid=1&timestamp=20190701152800&sign=AB5A65F5C63157935
+      &mobile=13888888888&result=success
 ```
 
 ### 返回值
