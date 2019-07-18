@@ -20,9 +20,9 @@ http://sms.meilihh.com/getmobile?itemid=1&timestamp=20190701152800&sign=AB5A65F5
 ### 请求参数
 | 字段名称 | 是否必须| 说明 |
 | -------- | -------- | -------- |
+| itemid     | 是     | 项目编号,由我方分配     |
 | timestamp |是 |时间戳	|
 | sign | 是 | 校验串  MD5(itemid+timestamp+secret) |
-| itemid     | 是     | 项目编号,由我方分配     |
 
 
 ### 返回值
