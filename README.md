@@ -21,7 +21,7 @@ http://sms.meilihh.com/getmobile?itemid=1&timestamp=20190701152800&sign=AB5A65F5
 | 字段名称 | 是否必须| 说明 |
 | -------- | -------- | -------- |
 | itemid     | 是     | 项目编号,由我方分配     |
-| timestamp |是 |时间戳	|
+| timestamp |是 |时间戳,日期格式yyyyMMddHHmmss	|
 | sign | 是 | 校验串  MD5(itemid+timestamp+secret) |
 
 
@@ -51,7 +51,7 @@ http://sms.meilihh.com/getsms?itemid=1&timestamp=20190701152800&sign=AB5A65F5C63
 | 字段名称 | 是否必须| 说明 |
 | -------- | -------- | -------- |
 | itemid     | 是     | 项目编号,由我方分配     |
-| timestamp |是 |时间戳	|
+| timestamp |是 |时间戳,日期格式yyyyMMddHHmmss	|
 | sign | 是 | 校验串  MD5(itemid+timestamp+secret) |
 | mobile| 是|需要获取短信的手机号|
 
@@ -94,7 +94,7 @@ http://sms.meilihh.com/result?itemid=1&timestamp=20190701152800&sign=AB5A65F5C63
 | 字段名称 | 是否必须| 说明 |
 | -------- | -------- | -------- |
 | itemid     | 是     | 项目编号,由我方分配     |
-| timestamp |是 |时间戳	|
+| timestamp |是 |时间戳,日期格式yyyyMMddHHmmss	|
 | sign | 是 | 校验串  MD5(itemid+timestamp+secret) |
 | mobile| 是|返回结果的手机号|
 | result |是 |返回结果 success或者failed	|
